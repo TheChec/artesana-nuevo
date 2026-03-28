@@ -1,0 +1,248 @@
+/* ── Sección catálogos ── */
+.catalogoSection {
+  padding: 80px 40px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 56px;
+  animation: fadeInUp 0.7s ease both;
+}
+
+.sectionEyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 10px;
+}
+
+.sectionTitle {
+  font-size: clamp(36px, 5vw, 52px);
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.sectionLine {
+  width: 60px;
+  height: 4px;
+  background: var(--color-primary);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* ── Grid de tarjetas ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+/* Las últimas 2 tarjetas centradas en la segunda fila */
+.grid > *:nth-child(4) {
+  grid-column: 1 / 2;
+}
+.grid > *:nth-child(5) {
+  grid-column: 2 / 3;
+}
+
+/* Cuando son exactamente 5, meter los últimos 2 centrados */
+.grid {
+  --cols: 3;
+}
+
+/* ── Tarjeta ── */
+.card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  box-shadow: var(--shadow-md);
+  animation: fadeInUp 0.6s ease both;
+  animation-delay: calc(var(--i) * 0.1s);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: var(--shadow-lg);
+}
+
+.cardImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.card:hover .cardImg {
+  transform: scale(1.08);
+}
+
+.cardOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(20, 5, 20, 0.82) 0%,
+    rgba(20, 5, 20, 0.3) 50%,
+    transparent 100%
+  );
+  transition: background 0.4s ease;
+}
+
+.card:hover .cardOverlay {
+  background: linear-gradient(
+    to top,
+    rgba(92, 44, 89, 0.85) 0%,
+    rgba(92, 44, 89, 0.4) 55%,
+    transparent 100%
+  );
+}
+
+.cardContent {
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cardEmoji {
+  font-size: 28px;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cardEmoji {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.cardLabel {
+  color: white;
+  font-size: clamp(20px, 2.5vw, 28px);
+  line-height: 1.2;
+  white-space: pre-line;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cardArrow {
+  color: var(--color-light);
+  font-size: 14px;
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.card:hover .cardArrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ── CTA Section ── */
+.ctaSection {
+  background: var(--color-primary);
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.ctaContent h2 {
+  font-size: clamp(28px, 4vw, 40px);
+  color: white;
+  margin-bottom: 16px;
+}
+
+.ctaContent p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 36px;
+  line-height: 1.6;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaWa,
+.ctaIg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.ctaWa:hover,
+.ctaIg:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.ctaWa {
+  background: #25d366;
+  color: white;
+}
+
+.ctaIg {
+  background: white;
+  color: var(--color-primary);
+}
+
+.ctaWa img,
+.ctaIg img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .catalogoSection {
+    padding: 60px 24px 40px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid > *:nth-child(4),
+  .grid > *:nth-child(5) {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    aspect-ratio: 16 / 9;
+  }
+}

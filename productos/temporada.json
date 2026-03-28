@@ -1,0 +1,37 @@
+[
+  {
+    "img": "./../../assets/mesh/caracolas.jpg",
+    "titulo": "Caracola",
+    "descripcion": "Gorrito tejido decorado con dijes de caracolas",
+    "precio": "22$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/mesh/sirena.jpg",
+    "titulo": "Marea",
+    "descripcion": "Gorrito tejido con borde ondulado",
+    "precio": "18$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/mesh/brisa.jpg",
+    "titulo": "Brisa",
+    "descripcion": "Gorrito tejido sin borde",
+    "precio": "16$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/mesh/perlas.jpg",
+    "titulo": "Perla Marina",
+    "descripcion": "Gorrito tejido decorado con perlas",
+    "precio": "21$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/mesh/marea.jpg",
+    "titulo": "Sirena",
+    "descripcion": "Gorrito tejido decorado con dijes con motivo de mar (estrella, caracolas y caballitos de mar)",
+    "precio": "23$",
+    "categoria": "Tejidos"
+  }
+]

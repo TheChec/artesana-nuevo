@@ -1,0 +1,173 @@
+[
+  {
+    "id": "crt-001",
+    "img": "/assets/carteras/cosmetiquera.jpg",
+    "titulo": "Cosmetiquera",
+    "descripcion": "Personalízala con uno o dos colores, incluye forro interno que puede ser plastificado o de seda",
+    "precio": "40$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-002",
+    "img": "/assets/carteras/hibaBag.jpeg",
+    "titulo": "Hiba",
+    "descripcion": "Estilo handbag",
+    "precio": "50$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-003",
+    "img": "/assets/carteras/hibaShoulderBag.jpg",
+    "titulo": "Hiba Shoulder",
+    "descripcion": "Estilo shoulder bag",
+    "precio": "55$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-004",
+    "img": "/assets/carteras/laylaBag.jpeg",
+    "titulo": "Layla",
+    "descripcion": "",
+    "precio": "40$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-005",
+    "img": "/assets/carteras/jazminBag.jpeg",
+    "titulo": "Jazmin",
+    "descripcion": "",
+    "precio": "40$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-006",
+    "img": "/assets/carteras/rawyaBag.jpg",
+    "titulo": "Rawya",
+    "descripcion": "",
+    "precio": "55$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-007",
+    "img": "/assets/carteras/lunaBag.jpeg",
+    "titulo": "Luna",
+    "descripcion": "",
+    "precio": "60$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-008",
+    "img": "/assets/carteras/amarBag.jpeg",
+    "titulo": "Amar",
+    "descripcion": "Tejida en material metalizado, disponible en color dorado, plateado, oro rosa, bronce y negro metalizado",
+    "precio": "75$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-009",
+    "img": "/assets/carteras/aidaBag.jpeg",
+    "titulo": "Aida",
+    "descripcion": "",
+    "precio": "45$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-010",
+    "img": "/assets/carteras/amiraBag.jpeg",
+    "titulo": "Amira",
+    "descripcion": "",
+    "precio": "40$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-011",
+    "img": "/assets/carteras/saraBag.jpeg",
+    "titulo": "Sara",
+    "descripcion": "",
+    "precio": "35$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-012",
+    "img": "/assets/carteras/nourBag.jpeg",
+    "titulo": "Nour",
+    "descripcion": "",
+    "precio": "35$",
+    "categoria": "Carteras",
+    "stock": true
+  },
+  {
+    "id": "crt-013",
+    "img": "/assets/accesorios/florPuff.jpeg",
+    "titulo": "Llavero flor puff",
+    "descripcion": "",
+    "precio": "6$ o 2x10$",
+    "categoria": "Accesorios",
+    "stock": true
+  },
+  {
+    "id": "crt-014",
+    "img": "/assets/accesorios/borlaDorada.jpeg",
+    "titulo": "Llavero borla metalizada",
+    "descripcion": "",
+    "precio": "8$",
+    "categoria": "Accesorios",
+    "stock": true
+  },
+  {
+    "id": "crt-015",
+    "img": "/assets/accesorios/corazonEstrella.jpeg",
+    "titulo": "Llavero figuras",
+    "descripcion": "Corazón o estrella",
+    "precio": "5$ c/u",
+    "categoria": "Accesorios",
+    "stock": true
+  },
+  {
+    "id": "crt-016",
+    "img": "/assets/accesorios/florPuff.jpeg",
+    "titulo": "Llavero flor puff (stock)",
+    "descripcion": "Disponible para entrega inmediata",
+    "precio": "6$ o 2x10$",
+    "categoria": "Stock",
+    "stock": true
+  },
+  {
+    "id": "crt-017",
+    "img": "/assets/carteras/amarBag.jpeg",
+    "titulo": "Amar (stock)",
+    "descripcion": "Disponible para entrega inmediata en color negro y oro rosa",
+    "precio": "75$",
+    "categoria": "Stock",
+    "stock": true
+  },
+  {
+    "id": "crt-018",
+    "img": "/assets/carteras/saraBag.jpeg",
+    "titulo": "Sara (stock)",
+    "descripcion": "Disponible para entrega inmediata en color frambuesa",
+    "precio": "35$",
+    "categoria": "Stock",
+    "stock": true
+  },
+  {
+    "id": "crt-019",
+    "img": "/assets/carteras/nourBag.jpeg",
+    "titulo": "Nour (stock)",
+    "descripcion": "Disponible para entrega inmediata en color cian",
+    "precio": "35$",
+    "categoria": "Stock",
+    "stock": true
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="./llaveros.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+    <link rel="icon" href="./../../assets/logoArtesanaRedondo.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Artesana</title>
+</head>
+
+<body>
+
+    <div class="modalBox" id="modalBox">
+        <div class="modal">
+            <div class="button_close">
+                <div class="close_modal_button" onclick="close_modal()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="contenido">
+                <div class="img_div">
+                    <img src="./../../assets/flores/tarjeta.jpg" alt="">
+                </div>
+                <div class="caracteristicas_div">
+                    <h2>Titulo</h2>
+                    <h2 class="precio_modal">Precio</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt aliquam voluptatibus
+                        autem pariatur ad. Rerum quia velit, quidem ipsum animi laudantium quae eos, dolore,
+                        necessitatibus nam neque veniam aperiam!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav-slide></nav-slide>
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>Llaveros</h2>
+            <br>Por favor realiza tu pedido con al menos 7 dias de anticipacion<br>
+            <br>Puedes personalizar los tejidos del color que desees <br>
+            <br>Para confirmar tu pedido y poder empezar a tejerlo debes hacer el pago del 50% adelantado <br></p>
+        </div>
+
+        <div class="botones" id="botones"></div>
+        <div class="catalogoCarteras" id="Llaveros"></div>
+        <div class="catalogoCarteras" id="Stock"></div>
+
+    </section>
+    <footer-costume></footer-costume>
+</body>
+<script src="./llaveros.js"> </script>
+<script src="./../../components-js/navegador/nav-slide.js"></script>
+<script src="./../../components-js/footer/footer.js"></script>
+</html>
+

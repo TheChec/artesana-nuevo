@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="./carteras.css" type="text/css">
+    <link rel="icon" href="./../../assets/logoArtesanaRedondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Artesana</title>
+</head>
+
+<body>
+    <div class="modalBox" id="modalBox">
+        <div class="modal">
+            <div class="button_close">
+                <div class="close_modal_button" onclick="close_modal()">
+                    <span class="material-symbols-outlined">
+close
+</span>
+                </div>
+            </div>
+            <div class="contenido">
+                <div class="img_div">
+                    <img src="" alt="">
+                </div>
+                <div class="caracteristicas_div">
+                    <h2></h2>
+                    <h2 class="precio_modal"></h2>
+                  <h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+   <nav-slide></nav-slide>
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>Carteras</h2>
+            <p>Carteras, colores, accesorios. Todos los diseños están hechos en trapillo en
+                diferentes colores y herrajes de acero inoxidable.</p>
+        </div>
+        <div class="botonColores">
+            <button onclick="navOpenAndClose()">Ver colores disponibles</button>
+        </div>
+        <div class="coloresCarteras" id="coloresCarteras">
+            <div>
+                <img src="./../../assets/coloresTrapillo/azulRey.jpeg" alt="">
+                <p>Azul Rey</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/azul.jpeg" alt="">
+                <p>Azul</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/azulElectrico.jpeg" alt="">
+                <p>Azul Electrico</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/celeste.jpeg" alt="">
+                <p>Celeste</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/beige.jpeg" alt="">
+                <p>Beige</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/marron.jpeg" alt="">
+                <p>Marron</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/canela.jpeg" alt="">
+                <p>Canela</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/gris.jpeg" alt="">
+                <p>Gris</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/negro.jpeg" alt="">
+                <p>Negro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/blanco.jpeg" alt="">
+                <p>Blanco</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/rosaVieja.jpeg" alt="">
+                <p>Rosa Vieja</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/rojoVino.jpeg" alt="">
+                <p>Rojo vino</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/rojo.jpeg" alt="">
+                <p>Rojo</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/cereza.jpeg" alt="">
+                <p>Cereza</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/verdeOscuro.jpeg" alt="">
+                <p>Verde Oscuro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/verde.jpeg" alt="">
+                <p>Verde</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/lila.jpeg" alt="">
+                <p>Lila</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/morado.jpeg" alt="">
+                <p>Morado</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/melocoton.jpeg" alt="">
+                <p>Melocoton</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/rosadoSalmon.jpeg" alt="">
+                <p>Salmon</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/rosaElectrico.jpeg" alt="">
+                <p>Rosado Electrico</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresTrapillo/fucsia.jpeg" alt="">
+                <p>Fucsia</p>
+            </div>
+        </div>
+        <div class="botones" id="botones"></div>
+        <div class="catalogoCarteras" id="Carteras"></div>
+        <div class="catalogoCarteras" id="Accesorios"></div>
+        <div class="catalogoCarteras" id="Stock"></div>
+    </section>
+                <footer-costume></footer-costume>
+
+</body>
+<script src="./carteras.js"> </script>
+<script src="./../../components-js/navegador/nav-slide.js"></script>
+<script src="./../../components-js/footer/footer.js"></script>
+
+</html>

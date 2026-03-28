@@ -1,0 +1,136 @@
+ [
+  {
+    "img": "./../../assets/carteras/cosmetiquera.jpg",
+    "titulo": "Cosmetiquera",
+    "descripcion": "Personalízala con uno o dos colores, incluye forro interno que puede ser plastificado o de seda",
+    "precio": "40$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/hibaBag.jpeg",
+    "titulo": "Hiba",
+    "descripcion": "Estilo handbag",
+    "precio": "50$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/hibaShoulderBag.jpg",
+    "titulo": "Hiba",
+    "descripcion": "Estilo shoulder bag",
+    "precio": "55$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/laylaBag.jpeg",
+    "titulo": "Layla",
+    "descripcion": "",
+    "precio": "40$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/jazminBag.jpeg",
+    "titulo": "Jazmin",
+    "descripcion": "",
+    "precio": "40$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/rawyaBag.jpg",
+    "titulo": "Rawya",
+    "descripcion": "",
+    "precio": "55$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/lunaBag.jpeg",
+    "titulo": "Luna",
+    "descripcion": "",
+    "precio": "60$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/amarBag.jpeg",
+    "titulo": "Amar",
+    "descripcion": "Tejida en material metalizado, disponible en color dorado, plateado, oro rosa, bronce y negro metalizado",
+    "precio": "75$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/aidaBag.jpeg",
+    "titulo": "Aida",
+    "descripcion": "",
+    "precio": "45$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/amiraBag.jpeg",
+    "titulo": "Amira",
+    "descripcion": "",
+    "precio": "40$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/saraBag.jpeg",
+    "titulo": "Sara",
+    "descripcion": "",
+    "precio": "35$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/carteras/nourBag.jpeg",
+    "titulo": "Nour",
+    "descripcion": "",
+    "precio": "35$",
+    "categoria": "Carteras"
+  },
+  {
+    "img": "./../../assets/accesorios/florPuff.jpeg",
+    "titulo": "Llavero flor puff",
+    "descripcion": "",
+    "precio": "6$ o 2x10$",
+    "categoria": "Accesorios"
+  },
+  {
+    "img": "./../../assets/accesorios/borlaDorada.jpeg",
+    "titulo": "Llavero borla metalizada",
+    "descripcion": "",
+    "precio": "8$",
+    "categoria": "Accesorios"
+  },
+  {
+    "img": "./../../assets/accesorios/corazonEstrella.jpeg",
+    "titulo": "Llavero figuras",
+    "descripcion": "Corazón o estrella",
+    "precio": "5$ c/u",
+    "categoria": "Accesorios"
+  },
+  {
+    "img": "./../../assets/accesorios/florPuff.jpeg",
+    "titulo": "Llavero flor puff",
+    "descripcion": "",
+    "precio": "6$ o 2x10$",
+    "categoria": "Stock"
+  },
+  {
+    "img": "./../../assets/carteras/amarBag.jpeg",
+    "titulo": "Amar",
+    "descripcion": "Tejida en material metalizado, disponible para entrega inmediata en color negro y oro rosa ",
+    "precio": "75$",
+    "categoria": "Stock"
+  },
+  {
+    "img": "./../../assets/carteras/saraBag.jpeg",
+    "titulo": "Sara",
+    "descripcion": "Disponible para entrega inmediata en color frambuesa",
+    "precio": "35$",
+    "categoria": "Stock"
+  },
+  {
+    "img": "./../../assets/carteras/nourBag.jpeg",
+    "titulo": "Nour",
+    "descripcion": "Disponible para entrega inmediata en color cian",
+    "precio": "35$",
+    "categoria": "Stock"
+  }
+]
+    

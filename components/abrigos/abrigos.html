@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+    <link rel="stylesheet" href="./abrigos.css" type="text/css">
+    <link rel="icon" href="./../../assets/logoArtesanaRedondo.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Artesana</title>
+</head>
+
+<body>
+    <div class="modalBox" id="modalBox">
+        <div class="modal">
+             <div class="button_close">
+                <div class="close_modal_button" onclick="close_modal()">
+                                        <span class="material-symbols-outlined">
+close
+</span>
+                </div>
+            </div>
+            <div class="contenido">
+                <div class="img_div">
+                    <img src="./../../assets/flores/tarjeta.jpg" alt="">
+                </div>
+                <div class="caracteristicas_div">
+                    <h2>Titulo</h2>
+                    <h2 class="precio_modal">Precio</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt aliquam voluptatibus autem pariatur ad. Rerum quia velit, quidem ipsum animi laudantium quae eos, dolore, necessitatibus nam neque veniam aperiam!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+           <nav-slide></nav-slide>
+
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>Flores tejidas</h2>
+            <p>
+                <br>Por favor realiza tu pedido con al menos 3 dias de anticipacion<br>
+                <br>Todos los ramos se pueden personalizar con la cantidad de flores y colores que desees <br>
+                <br>Para confirmar tu pedido y poder empezar a tejerlo debes hacer el pago del 50% adelantado <br>
+            </p>
+        </div>
+        <div class="botonColores">
+            <button onclick="navOpenAndClose()">Ver colores disponibles</button>
+        </div>
+        <div class="coloresFlores" id="coloresFlores">
+            <div>
+                <img src="./../../assets/coloresFlores/colorAmarilloPastel.jpg" alt="">
+                <p>Amarillo <br> Pastel</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAmarillo.jpeg" alt="">
+                <p>Amarillo</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAmarilloOscuro.jpeg" alt="">
+                <p>Amarillo <br> Oscuro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorCeleste.jpeg" alt="">
+                <p>Celeste</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorTurquesa.jpeg" alt="">
+                <p>Turquesa</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAzulRey.jpeg" alt="">
+                <p>Azul <br> Rey</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAzulOscuro.jpeg" alt="">
+                <p>Azul <br> oscuro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorLila.jpeg" alt="">
+                <p>Lila</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMorado.jpg" alt="">
+                <p>Morado</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMarron.jpeg" alt="">
+                <p>Morado <br> oscuro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosadoPastel.jpeg" alt="">
+                <p>Rosado <br> Pastel</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosado.jpeg">
+                <p>Rosado</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosadoFuerte.jpeg" alt="">
+                <p>Rosado <br> Chicle</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMagenta.jpeg" alt="">
+                <p>Magenta</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRojo.jpeg" alt="">
+                <p>Rojo</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorNaranja.jpeg" alt="">
+                <p>Naranja</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorVino.jpeg" alt="">
+                <p>Vino</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorBeige.jpeg" alt="">
+                <p>Beige</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMarron.jpeg" alt="">
+                <p>Marron</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorBlanco.jpeg" alt="">
+                <p>Blanco</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorNegro.jpeg" alt="">
+                <p>Negro</p>
+            </div>
+        </div>
+        <div class="botones" id="botones"></div>
+        <div class="catalogoFlores" id="Abrigos de Moda"></div>
+    </section>
+               <footer-costume></footer-costume>
+
+</body>
+<script src="./abrigos.js"></script>
+<script src="./../../components-js/footer/footer.js"></script>
+<script src="./../../components-js/navegador/nav-slide.js"></script>
+
+</html>

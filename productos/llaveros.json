@@ -1,0 +1,30 @@
+[
+    {
+        "img": "./../../assets/accesorios/florPuff.jpeg",
+        "titulo":"Llavero flor puff",
+        "descripcion":"personaliza el color",
+        "precio":"8$",
+        "categoria":"Llaveros"
+    },
+    {
+        "img": "./../../assets/llaveros/corazonTrapillo.jpg",
+        "titulo":"Llavero de corazon con plaquita personalizada",
+        "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
+        "precio":"7$",
+        "categoria":"Llaveros"
+    },
+    {
+    "img": "./../../assets/navidad/llaveroMedioTrenzado.jpg",
+    "titulo": "Llavero trenzado + plaquita",
+    "descripcion": "puedes escoger el color del tejido y personalizar la plaquita",
+    "precio": "7$ con plaquita o 6,5$ sin plaquita",
+    "categoria": "Productos"
+  },
+  {
+        "img": "./../../assets/llaveros/abejasEnamoradas.jpg",
+        "titulo":"abejitas enamoradas",
+        "descripcion":"cuando se acercan se dan un besito por el iman que llevan dentro",
+        "precio":"17$",
+        "categoria":"Llaveros"
+   }
+]

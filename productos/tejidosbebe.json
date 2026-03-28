@@ -1,0 +1,114 @@
+[
+  {
+    "img": "./../../assets/bebes/sonajeroConejoUnisex.jpg",
+    "titulo": "Sonajero Conejo",
+    "descripcion": "Personaliza el color del collar para hacerlo de niña, niño o unisex",
+    "precio": "18$",
+    "categoria": "Sonajeros"
+  },
+  {
+    "img": "./../../assets/bebes/sonajeroConejoOrejasGrandes.jpg",
+    "titulo": "Sonajero Conejo Orejitas grandes",
+    "descripcion": "con los ojos bordados y las ojerasmas grandes hacia atras, puedes personalizar el color",
+    "precio": "22$",
+    "categoria": "Sonajeros"
+  },
+  {
+    "img": "./../../assets/bebes/sonajeroLeon.jpg",
+    "titulo": "Sonajero Leon",
+    "descripcion": "",
+    "precio": "18$",
+    "categoria": "Sonajeros"
+  },
+  {
+    "img": "./../../assets/bebes/sonajeroOso.jpg",
+    "titulo": "Sonajero Osito",
+    "descripcion": "Puedes personalizar los colores del oso y del collar",
+    "precio": "18$",
+    "categoria": "Sonajeros"
+  },
+  {
+    "img": "./../../assets/bebes/sonajeroPollito.jpg",
+    "titulo": "Sonajero pollito",
+    "descripcion": "Puedes personalizar los colores",
+    "precio": "18$",
+    "categoria": "Sonajeros"
+  },
+  {
+    "img": "./../../assets/bebes/acrilicoPuertaLin.jpg",
+    "titulo": "Acrilico decorativo con flores tejidas",
+    "descripcion": "Puedes personalizar los colores y el nombre (20cm de diametro)",
+    "precio": "35$",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/acrilicoPuertaOliviaCorazones.jpg",
+    "titulo": "Acrilico decorativo con corazones tejidos",
+    "descripcion": "Puedes personalizar los colores y el nombre (20cm de diametro)",
+    "precio": "35$",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/acrilicoPuertaLaylaCorazonesYlazo.jpg",
+    "titulo": "Acrilico decorativo con lazo y corazones tejidos",
+    "descripcion": "Puedes personalizar los colores y el nombre (20cm de diametro)",
+    "precio": "40$",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/acrilicoPuertaHusseinLazoyCorazones.jpg",
+    "titulo": "Acrilico decorativo con lazo y corazones tejidos (version niño)",
+    "descripcion": "Puedes personalizar los colores y el nombre (20cm de diametro)",
+    "precio": "40$",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/acrilicoPuertaSalahCorazones.jpg",
+    "titulo": "Acrilico decorativo con corazones tejidos de lado (version niño)",
+    "descripcion": "Puedes personalizar los colores y el nombre (20cm de diametro)",
+    "precio": "35$",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/acrilicoPuertaOthmanCorazones.jpg",
+    "titulo": "Acrilico decorativo con corazones tejidos hacia abajo (version niño)",
+    "descripcion": "Puedes personalizar los colores y el nombre (20cm de diametro)",
+    "precio": "35$",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/llaveroCorazonTrapillo.jpg",
+    "titulo": "Llavero de corazon con plaquita de acrilico personalizada",
+    "descripcion": "Ideal para dar como souvenir de nacimiento",
+    "precio": "6$ c/u",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/llaveroCorazonTarjetaPersonalizada.jpg",
+    "titulo": "Llavero de corazon con plaquita de acrilico personalizada + tarjeta personalizada",
+    "descripcion": "Ideal para dar como souvenir de nacimiento. Pedido minimo 30 llaveros para personalizar tarjeta",
+    "precio": "6$ c/u",
+    "categoria": "Decoraciones y Souvenir"
+  },
+  {
+    "img": "./../../assets/bebes/sombreroOsito.jpg",
+    "titulo": "Sombrero con orejitas de oso",
+    "descripcion": "Puedes personalizar el color",
+    "precio": "Precio depende de la talla (consultar por chat)",
+    "categoria": "Accesorios"
+  },
+  {
+    "img": "./../../assets/bebes/cintilloAbejita.jpg",
+    "titulo": "Cintillo de abejita con antenas",
+    "descripcion": "",
+    "precio": "Precio depende de la talla (consultar por chat)",
+    "categoria": "Accesorios"
+  },
+  {
+    "img": "./../../assets/bebes/pelucheConejita.jpg",
+    "titulo": "Peluche conejita",
+    "descripcion": "Puedes personalizar los colores (20cm de alto aprox.)",
+    "precio": "25$",
+    "categoria": "Peluches"
+  }
+]

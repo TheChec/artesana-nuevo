@@ -1,0 +1,56 @@
+.botonColores {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.botonColores button {
+  padding: 10px;
+  background-color: #5c2c59;
+  color: white;
+  border-radius: 15px;
+  outline: none;
+  font-size: 18px;
+  border: 2px transparent solid;
+  transition: all 0.2s ease;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+}
+
+.botonColores button:hover {
+  background-color: white;
+  color: #5c2c59;
+  border: 2px #5c2c59 solid;
+}
+
+.colores {
+  display: flex;
+  height: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-flow: wrap row;
+  gap: 2px 10px;
+  transition: height 0.6s ease;
+}
+
+.colorItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colorItem img {
+  margin: 10px 10px 0 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: 0 -22px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.colorItem p {
+  text-align: center;
+}

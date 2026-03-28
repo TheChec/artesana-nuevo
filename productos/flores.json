@@ -1,0 +1,212 @@
+[
+  {
+    "img": "./../../assets/flores/bouquetTulipanIndividual.bmp",
+    "titulo": "Bouquet de tulipan individual",
+    "descripcion": "",
+    "precio": "7$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/bouquetTresFlores.jpeg",
+    "titulo": "Bouquet de 3 tulipanes",
+    "descripcion": "",
+    "precio": "21$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tulipanYlavanda.bmp",
+    "titulo": "Tulipan + lavanda",
+    "descripcion": "",
+    "precio": "12$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/clavelSencillo.bmp",
+    "titulo": "Clavel bouquet",
+    "descripcion": "",
+    "precio": "7,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/girasolEstandar.jpg",
+    "titulo": "Girasol",
+    "descripcion": "",
+    "precio": "10,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/girasolBouquet.jpeg",
+    "titulo": "Maxi girasol",
+    "descripcion": "",
+    "precio": "15$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rosaBouquet.jpeg",
+    "titulo": "Rosa bouquet",
+    "descripcion": "",
+    "precio": "9,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rosaPremiumBouquet.jpeg",
+    "titulo": "Rosa premium bouquet",
+    "descripcion": "Rosa grande y con mas volumen tejida petalo a petalo",
+    "precio": "13$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rapunzelMini.jpeg",
+    "titulo": "Lirio magico de Rapunzel",
+    "descripcion": "",
+    "precio": "14$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rapunzelGrandeBouquet.jpeg",
+    "titulo": "Lirio magico de Rapunzel",
+    "descripcion": "Version mas grande",
+    "precio": "25$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tulipanMaceta.jpeg",
+    "titulo": "Tulipan en maceta",
+    "descripcion": "Puedes personalizar el color del tulipan y la maceta",
+    "precio": "12,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/girasolMaceta.jpeg",
+    "titulo": "Girasol en maceta",
+    "descripcion": "Puedes personalizar el color de la maceta",
+    "precio": "12,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/spidermanBouquet3.jpg",
+    "titulo": "Bouquet 3 tulipanes Spiderman",
+    "descripcion": "Puedes pedir el ramo con la cantidad que desees, desde 1 tulipan",
+    "precio": "22,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tulipanBordado.jpg",
+    "titulo": "Bouquet tulipan con corazones bordados",
+    "descripcion": "",
+    "precio": "8$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/corazonLuminoso.jpg",
+    "titulo": "Corazon en maceta con luces de hadas led",
+    "descripcion": "Cuenta con 37 flores tejidas y mide 20cm de alto. Pidelo en la combinacion de colores que desees",
+    "precio": "26$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tarjeta.jpg",
+    "titulo": "Tarjeta",
+    "descripcion": "mensaje personalizado",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/extras/mariposaDecorativaPlateada.jpg",
+    "titulo": "Mariposa Decorativa",
+    "descripcion": "color sujeto a disponibilidad",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/perlasYmallaAdicional.jpg",
+    "titulo": "Perlas y malla sencilla",
+    "descripcion": "color de la malla sujeto a disponibilidad",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/mallaPerlas.jpg",
+    "titulo": "Malla con perlas",
+    "descripcion": "",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/abejita.jpeg",
+    "titulo": "abejita",
+    "descripcion": "",
+    "precio": "7$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/bouquetKau.jpg",
+    "titulo": "Bouquet de 5 tulipanes + 3 margaritas + malla de perlas + tarjeta",
+    "descripcion": "personalizalo del color que desees",
+    "precio": "43$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/tresTulipanesGirasolBouquet.jpeg",
+    "titulo": "Bouquet de 3 tulipanes + girasol",
+    "descripcion": "puedes pedir los tulipanes del color que desees",
+    "precio": "31,5$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/tresTulipanesAbejaBouquet.jpeg",
+    "titulo": "Bouquet de 3 tulipanes + abejita",
+    "descripcion": "puedes pedir los tulipanes del color que desees",
+    "precio": "28$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/tulipanClavelBouquet.jpeg",
+    "titulo": "Bouquet clavel + tulipan",
+    "descripcion": "puedes pedir las flores del color que desees",
+    "precio": "14$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/bouquet3lirios.jpeg",
+    "titulo": "Bouquet de 3 lirios",
+    "descripcion": "Pide los lirios del color que desees",
+    "precio": "30$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/macetas/rosarioColgadera.jpg",
+    "titulo": "Planta rosario con hojas que cuelgan",
+    "descripcion": "la base mide 7-8cm aproximadamente",
+    "precio": "17$",
+    "categoria": "Macetas"
+  },
+  {
+    "img": "./../../assets/macetas/suculenta.jpg",
+    "titulo": "Planta suculenta",
+    "descripcion": "la base mide 7cm aproximadamente",
+    "precio": "11$",
+    "categoria": "Macetas"
+  },
+  {
+    "img": "./../../assets/macetas/cactusAlto.jpg",
+    "titulo": "Cactus alto",
+    "descripcion": "la base mide 7cm aproximadamente",
+    "precio": "13$",
+    "categoria": "Macetas"
+  },
+  {
+    "img": "./../../assets/macetas/rosaConAbeja.jpg",
+    "titulo": "Maceta con rosa + abeja",
+    "descripcion": "Escoge el color de la rosa",
+    "precio": "23$",
+    "categoria": "Macetas"
+  },
+   {
+    "img": "./../../assets/macetas/macetaGigante.jpg",
+    "titulo": "Maceta grande con 4 tulipanes, dos rositas y dos abejas",
+    "descripcion": "Escoge el color de las flores",
+    "precio": "78$",
+    "categoria": "Macetas"
+  }
+]
