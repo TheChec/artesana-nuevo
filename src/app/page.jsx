@@ -50,7 +50,13 @@ export default function HomePage() {
               className={styles.card}
               style={{ '--i': i }}
             >
-              <img src={item.img} alt={item.label} className={styles.cardImg} />
+              <img
+                src={item.img}
+                alt={item.label}
+                className={styles.cardImg}
+                loading="lazy"
+                decoding="async"
+              />
               <div className={styles.cardOverlay} />
               <div className={styles.cardContent}>
                 <span className={styles.cardEmoji}>{item.emoji}</span>
@@ -73,7 +79,7 @@ export default function HomePage() {
               rel="noreferrer"
               className={styles.ctaWa}
             >
-              <img src="/assets/icono-whatsapp.png" alt="" />
+              <img src="/assets/icono-whatsapp.png" alt="" width={24} height={24} decoding="async" />
               WhatsApp
             </a>
             <a
@@ -82,7 +88,7 @@ export default function HomePage() {
               rel="noreferrer"
               className={styles.ctaIg}
             >
-              <img src="/assets/icono-instagram.png" alt="" />
+              <img src="/assets/icono-instagram.png" alt="" width={24} height={24} decoding="async" />
               Instagram
             </a>
           </div>

@@ -17,6 +17,7 @@ export default function Nav() {
             className={styles.imagen}
             src="/assets/simbolo-de-lista-de-tres-elementos-con-puntos.png"
             alt="abrir menu"
+            decoding="async"
           />
         </button>
 
@@ -44,6 +45,7 @@ export default function Nav() {
           <img
             src="/assets/simbolo-de-lista-de-tres-elementos-con-puntos.png"
             alt="cerrar menu"
+            decoding="async"
           />
         </button>
         <div className={styles.categoriasMenu}>
@@ -54,10 +56,10 @@ export default function Nav() {
           <Link href="/temporada" onClick={() => setIsOpen(false)}>Gorritos tejidos</Link>
           <div className={styles.iconWaAndIn}>
             <a href="https://wa.link/76fgft" target="_blank" rel="noreferrer">
-              <img className={styles.iconoEnlaceNav} src="/assets/icono-whatsapp.png" alt="WhatsApp" />
+              <img className={styles.iconoEnlaceNav} src="/assets/icono-whatsapp.png" alt="WhatsApp" decoding="async" />
             </a>
             <a href="https://www.instagram.com/artesana.mcbo" target="_blank" rel="noreferrer">
-              <img className={styles.iconoEnlaceNav} src="/assets/icono-instagram.png" alt="Instagram" />
+              <img className={styles.iconoEnlaceNav} src="/assets/icono-instagram.png" alt="Instagram" decoding="async" />
             </a>
           </div>
         </div>

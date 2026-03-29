@@ -9,7 +9,7 @@ export default function Footer() {
         <ul className={styles.socialLinks}>
           <li>
             <a href="https://wa.link/76fgft" target="_blank" rel="noreferrer">
-              <img className={styles.iconoEnlace} src="/assets/icono-whatsapp.png" alt="WhatsApp" />
+              <img className={styles.iconoEnlace} src="/assets/icono-whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async" />
             </a>
           </li>
           <li>
@@ -18,7 +18,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <img className={styles.iconoEnlace} src="/assets/icono-instagram.png" alt="Instagram" />
+              <img className={styles.iconoEnlace} src="/assets/icono-instagram.png" alt="Instagram" loading="lazy" decoding="async" />
             </a>
           </li>
         </ul>

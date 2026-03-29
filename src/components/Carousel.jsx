@@ -74,7 +74,14 @@ export default function Carousel() {
           key={i}
           className={`${styles.slide} ${i === current ? styles.active : ''} ${i === prev ? styles.exiting : ''}`}
         >
-          <img src={slide.img} alt={slide.titulo} className={styles.slideImg} />
+          <img
+            src={slide.img}
+            alt={slide.titulo}
+            className={styles.slideImg}
+            loading={i === 0 ? 'eager' : 'lazy'}
+            fetchPriority={i === 0 ? 'high' : 'low'}
+            decoding="async"
+          />
           <div className={styles.overlay} />
           <div className={styles.content}>
             <span className={styles.subtitulo}>{slide.subtitulo}</span>

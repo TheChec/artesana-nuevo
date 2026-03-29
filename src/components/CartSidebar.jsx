@@ -73,7 +73,13 @@ export default function CartSidebar() {
               const subtotal = precio * item.cantidad
               return (
                 <div key={item.id} className={styles.item}>
-                  <img src={item.img} alt={item.titulo} className={styles.itemImg} />
+                  <img
+                    src={item.img}
+                    alt={item.titulo}
+                    className={styles.itemImg}
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <div className={styles.itemInfo}>
                     <p className={styles.itemName}>
                       {item.titulo}
@@ -178,7 +184,7 @@ export default function CartSidebar() {
               </label>
 
               <button type="submit" className={styles.sendBtn}>
-                <img src="/assets/icono-whatsapp.png" alt="" width={20} height={20} />
+                <img src="/assets/icono-whatsapp.png" alt="" width={20} height={20} decoding="async" />
                 Enviar pedido por WhatsApp
               </button>
             </form>

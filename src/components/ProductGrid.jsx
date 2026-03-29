@@ -74,7 +74,13 @@ export default function ProductGrid({ products }) {
             onClick={() => setModalProduct(product)}
           >
             <div className={styles.cardImgWrapper}>
-              <img src={product.img} alt={product.titulo} className={styles.cardImg} />
+              <img
+                src={product.img}
+                alt={product.titulo}
+                className={styles.cardImg}
+                loading="lazy"
+                decoding="async"
+              />
               <div className={styles.cardImgOverlay}>
                 <span className={styles.verMas}>Ver detalle</span>
               </div>
@@ -106,6 +112,8 @@ export default function ProductGrid({ products }) {
                 src={modalProduct.img}
                 alt={modalProduct.titulo}
                 className={styles.modalImg}
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
 
@@ -136,7 +144,7 @@ export default function ProductGrid({ products }) {
                   rel="noreferrer"
                   className={styles.modalWa}
                 >
-                  <img src="/assets/icono-whatsapp.png" alt="" />
+                  <img src="/assets/icono-whatsapp.png" alt="" width={20} height={20} decoding="async" />
                   Pedir por WhatsApp
                 </a>
               </div>

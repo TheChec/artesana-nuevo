@@ -24,7 +24,7 @@ export default function ColorSection({ colores }) {
       <div ref={ref} className={styles.colores}>
         {colores.map((color, i) => (
           <div key={i} className={styles.colorItem}>
-            <img src={color.img} alt={color.nombre} />
+            <img src={color.img} alt={color.nombre} loading="lazy" decoding="async" />
             <p>{color.nombre}</p>
           </div>
         ))}
